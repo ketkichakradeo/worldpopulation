@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+	<meta charset='utf-8'>
+	<title>Project 3</title>
+
+	<link rel='stylesheet' href='/style.css'>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+	<script defer src='/build/bundle.js'></script>
+	<script src="https://d3js.org/d3.v6.js" charset="utf-8"></script>
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+</head>
+
+<body>
+	<div id='map'></div>
+	<div class='overlay' id='features'>
+		<h2>World GDP</h2>
+		<div id='pd'>
+			<p>Hover over a country!</p>
+		</div>
+	</div>
+	<div class='overlay' id='legend'></div>
+
+	
+	<div class="overlay">
+        <label id="currYear">2000</label> <!-- Initial value -->
+        <input id="year-slider" type="range" min="2000" max="2015" />
+    </div>
+
+
+</body>
+</html>
