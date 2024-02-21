@@ -8,7 +8,7 @@
 </main>
 
 <script>
-    import * as d3 from "d3";
+    
     mapboxgl.accessToken = "pk.eyJ1Ijoia3F0cmFuIiwiYSI6ImNsc2t6eXQ4czA3dmcyanJ5eWhoaWQxeHIifQ.2kwe8rDh1r-X61ULATh_Jg";
     
     const geojsonUrl = "static/world_energy_data2.geojson";
